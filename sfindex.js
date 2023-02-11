@@ -8,11 +8,11 @@ function closeNav() {
   document.getElementById("main").style.marginLeft = "0";
 }
 
-let coll = document.getElementsByClassName("list-header");
+let dropDowns = document.getElementsByClassName("list-header");
 let i;
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function () {
+for (i = 0; i < dropDowns.length; i++) {
+  dropDowns[i].addEventListener("click", function () {
     this.classList.toggle("active");
     let content = this.nextElementSibling;
     if (content.style.maxHeight) {
