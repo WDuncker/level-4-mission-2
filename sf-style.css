@@ -213,7 +213,7 @@ header {
   background-color: rgb(15, 73, 188);
   color: lightgray;
   padding: 5px 10px;
-  border: none;
+  border: solid rgb(2, 39, 112) 2px;
 }
 
 .openbtn:active {
@@ -227,24 +227,6 @@ header {
 #main {
   transition: margin-left 0.5s;
   padding: 20px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidebar {
-    padding-top: 15px;
-  }
-  .sidebar a {
-    font-size: 18px;
-  }
-  header {
-    width: 90%;
-  }
-  #main-head {
-    font-size: 20px;
-  }
-  #main-subhead {
-    font-size: 15px;
-  }
 }
 
 .images {
@@ -266,6 +248,8 @@ header {
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
+  border: double rgb(2, 39, 112) 4px;
+  border-radius: 5px;
 }
 
 #fullburst {
@@ -372,6 +356,8 @@ header {
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
+  border: double rgb(2, 39, 112) 4px;
+  border-radius: 5px;
 }
 
 .armament-images {
@@ -444,6 +430,8 @@ header {
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
+  border: double rgb(2, 39, 112) 4px;
+  border-radius: 5px;
 }
 
 .equipment-images {
@@ -491,4 +479,230 @@ header {
 
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(2, 39, 112);
+}
+
+@media screen and (max-width: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+  header {
+    width: 90%;
+  }
+  #main-head {
+    font-size: 20px;
+  }
+  #main-subhead {
+    font-size: 15px;
+  }
+  .youtube {
+    width: 70%;
+    font-size: 15px;
+  }
+  .contact-form {
+    width: 70%;
+  }
+  .overview-text {
+    font-size: 12px;
+  }
+  .form-inputs {
+    font-size: 12px;
+  }
+  .openbtn {
+    font-size: 12px;
+  }
+  .sidebar {
+    font-size: 15px;
+    padding-top: 40%;
+  }
+  .sectionheader {
+    font-size: 15px;
+  }
+  .info-text {
+    font-size: 12px;
+  }
+  .images {
+    flex-direction: column;
+  }
+  #fullburst {
+    max-width: 70%;
+    margin-bottom: 3%;
+  }
+  #sf-main {
+    max-width: 70%;
+    margin-bottom: 3%;
+  }
+  #drag-release {
+    max-width: 70%;
+    margin-bottom: 3%;
+  }
+  .list-header {
+    font-size: 15px;
+  }
+  .info-text {
+    font-size: 12px;
+  }
+  .armament-images {
+    flex-direction: column;
+  }
+  #CIWS {
+    max-width: 70%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #beamshield {
+    max-width: 70%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #beamrifle {
+    max-width: 70%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #DRAGOON {
+    max-width: 70%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .equipment-images {
+    flex-direction: column;
+  }
+  #multi-lock {
+    max-width: 70%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #himat {
+    max-width: 70%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #meteor {
+    max-width: 70%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+  header {
+    width: 90%;
+  }
+  #main-head {
+    font-size: 35px;
+  }
+  #main-subhead {
+    font-size: 25px;
+  }
+  .youtube {
+    width: 70%;
+    font-size: 25px;
+  }
+  .contact-form {
+    width: 70%;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  .overview-text {
+    font-size: 20px;
+  }
+  .form-inputs {
+    font-size: 20px;
+  }
+  .openbtn {
+    font-size: 25px;
+  }
+  .sidebar {
+    font-size: 20px;
+    padding-top: 40%;
+  }
+  .sectionheader {
+    font-size: 25px;
+  }
+  .info-text {
+    font-size: 20px;
+  }
+  .images {
+    flex-direction: column;
+  }
+  #fullburst {
+    max-width: 70%;
+    margin-bottom: 3%;
+  }
+  #sf-main {
+    max-width: 70%;
+    margin-bottom: 3%;
+  }
+  #drag-release {
+    max-width: 70%;
+    margin-bottom: 3%;
+  }
+  .list-header {
+    font-size: 25px;
+  }
+  .armament-images {
+    flex-direction: column;
+  }
+  #CIWS {
+    max-width: 70%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #beamshield {
+    max-width: 70%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #beamrifle {
+    max-width: 70%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #DRAGOON {
+    max-width: 70%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .equipment-images {
+    flex-direction: column;
+  }
+  #multi-lock {
+    max-width: 70%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #himat {
+    max-width: 70%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #meteor {
+    max-width: 70%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
