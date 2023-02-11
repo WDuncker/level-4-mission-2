@@ -1,0 +1,500 @@
+body {
+  background-image: url(https://wallpapercave.com/wp/wp3613737.jpg);
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(15, 73, 188);
+  width: 70%;
+  top: 0;
+  color: lightgray;
+  border: double rgb(2, 39, 112) 4px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  font-family: "Black Ops One";
+  text-decoration: underline;
+  text-decoration-style: double;
+  text-align: center;
+  text-decoration-color: lightgray;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2),
+    0 15px 30px 0 rgba(0, 0, 0, 0.678);
+}
+
+#main-head {
+  font-size: 40px;
+}
+
+#main-subhead {
+  font-size: 30px;
+}
+
+.slideshow {
+  box-sizing: border-box;
+  width: 60%;
+  height: 10%;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.freedom-slides {
+  display: none;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.youtube {
+  color: lightgray;
+  font-size: 20px;
+  background-color: rgb(15, 73, 188);
+  width: 725px;
+  text-align: center;
+  border: double rgb(2, 39, 112) 4px;
+  margin-top: 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2),
+    0 15px 30px 0 rgba(0, 0, 0, 0.678);
+}
+
+.yt-link {
+  color: lightgray;
+  transition: 1.5s;
+}
+
+.yt-link:hover {
+  color: red;
+}
+
+.contact-form {
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  background-color: rgb(15, 73, 188);
+  color: lightgray;
+  margin-top: 30px;
+  padding-left: 10px;
+  border: double rgb(2, 39, 112) 4px;
+  width: 715px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2),
+    0 15px 30px 0 rgba(0, 0, 0, 0.678);
+}
+
+.info-text {
+  color: lightgray;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+  font-size: 16px;
+}
+
+#submit {
+  background: rgb(114, 173, 250);
+  margin: 10px;
+  width: 100px;
+  color: black;
+  box-shadow: 0 5px rgba(0, 0, 0, 0.63);
+}
+
+#submit:hover {
+  background: rgb(0, 46, 106);
+}
+
+#submit:active {
+  background: rgb(0, 46, 106);
+  box-shadow: 0 2px rgba(0, 0, 0, 0.63);
+  transform: translateY(4px);
+}
+
+.form-inputs {
+  margin-left: 10px;
+  padding: 5px;
+}
+
+#comp-name {
+  background-color: rgb(15, 73, 188);
+  font-family: "Black Ops One";
+  font-size: 15px;
+  margin-top: 15px;
+  text-align: center;
+  color: lightgray;
+  text-decoration: underline;
+  text-decoration-color: lightgray;
+  padding: 5px;
+}
+
+#clynecorp {
+  margin-top: 100px;
+  border-radius: 50px;
+  border: solid black 2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  animation: spin;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(150deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+
+/* The sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: rgb(15, 73, 188);
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 225px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  opacity: 80%;
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: lightgray;
+  font-family: "Black Ops One";
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: black;
+  transform: rotate(45deg);
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  position: absolute;
+  top: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(15, 73, 188);
+  color: lightgray;
+  padding: 5px 10px;
+  border: none;
+}
+
+.openbtn:active {
+  color: rgb(0, 46, 106);
+}
+
+.openbtn:hover {
+  background-color: rgb(0, 46, 106);
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left 0.5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+  header {
+    width: 90%;
+  }
+  #main-head {
+    font-size: 20px;
+  }
+  #main-subhead {
+    font-size: 15px;
+  }
+}
+
+.images {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.overview {
+  background-color: rgb(15, 73, 188);
+  margin-bottom: 30px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2),
+    0 15px 30px 0 rgba(0, 0, 0, 0.678);
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+#fullburst {
+  max-width: 700px;
+  max-height: 400px;
+  box-shadow: 0 10px 20px 0 rgba(252, 32, 32, 0.801),
+    0 15px 30px 0 rgba(233, 212, 26, 0.849);
+  transition: box-shadow 3s;
+}
+
+#fullburst:hover {
+  box-shadow: 0 30px 40px 0 rgba(252, 32, 32, 0.801),
+    0 35px 50px 0 rgba(233, 212, 26, 0.849);
+}
+
+#sf-main {
+  max-width: 700px;
+  max-height: 400px;
+  box-shadow: 0 10px 20px 0 rgba(252, 32, 32, 0.801),
+    0 15px 30px 0 rgba(233, 212, 26, 0.849);
+  transition: box-shadow 3s;
+}
+
+#sf-main:hover {
+  box-shadow: 0 30px 40px 0 rgba(252, 32, 32, 0.801),
+    0 35px 50px 0 rgba(233, 212, 26, 0.849);
+}
+
+#drag-release {
+  max-width: 700px;
+  max-height: 400px;
+  box-shadow: 0 10px 20px 0 rgba(252, 32, 32, 0.801),
+    0 15px 30px 0 rgba(233, 212, 26, 0.849);
+  transition: box-shadow 3s;
+}
+
+#drag-release:hover {
+  box-shadow: 0 30px 40px 0 rgba(252, 32, 32, 0.801),
+    0 35px 50px 0 rgba(233, 212, 26, 0.849);
+}
+
+.sectionheader {
+  padding-left: 10px;
+  font-family: "Black Ops One";
+  font-size: 25px;
+  color: lightgray;
+  text-decoration: underline;
+  text-decoration-color: lightgray;
+}
+
+.list-header {
+  font-family: "Black Ops One";
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active,
+.list-header:hover {
+  color: red;
+}
+
+.list-header:after {
+  content: "\25BA";
+  font-size: 20px;
+  color: lightgray;
+  float: inline-end;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\25BC";
+}
+
+.overview-text {
+  color: lightgray;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.info-text {
+  color: lightgray;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+}
+
+.armaments {
+  background-color: rgb(15, 73, 188);
+  margin-bottom: 30px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2),
+    0 15px 30px 0 rgba(0, 0, 0, 0.678);
+  margin-top: 5%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.armament-images {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#CIWS {
+  max-width: 400px;
+  margin-bottom: 3%;
+  transition: transform 1.5s;
+  box-shadow: 0 10px 20px 0 rgba(252, 32, 32, 0.801),
+    0 15px 30px 0 rgba(233, 212, 26, 0.849);
+}
+
+#CIWS:hover {
+  transform: scale(1.5, 1.5);
+  border: solid black 1px;
+}
+
+#beamshield {
+  max-width: 400px;
+  margin-bottom: 3%;
+  transition: transform 1.5s;
+  box-shadow: 0 10px 20px 0 rgba(252, 32, 32, 0.801),
+    0 15px 30px 0 rgba(233, 212, 26, 0.849);
+}
+
+#beamshield:hover {
+  transform: scale(1.5, 1.5);
+  border: solid black 1px;
+}
+
+#beamrifle {
+  max-width: 400px;
+  margin-bottom: 3%;
+  transition: transform 1.5s;
+  box-shadow: 0 10px 20px 0 rgba(252, 32, 32, 0.801),
+    0 15px 30px 0 rgba(233, 212, 26, 0.849);
+}
+
+#beamrifle:hover {
+  transform: scale(1.5, 1.5);
+  border: solid black 1px;
+}
+
+#DRAGOON {
+  max-width: 400px;
+  margin-bottom: 3%;
+  transition: transform 1.5s;
+  box-shadow: 0 10px 20px 0 rgba(252, 32, 32, 0.801),
+    0 15px 30px 0 rgba(233, 212, 26, 0.849);
+}
+
+#DRAGOON:hover {
+  transform: scale(1.5, 1.5);
+  border: solid black 1px;
+}
+
+.equipmentfeatures {
+  background-color: rgb(15, 73, 188);
+  margin-top: 30px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2),
+    0 15px 30px 0 rgba(0, 0, 0, 0.678);
+  margin-top: 5%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.equipment-images {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#multi-lock {
+  max-width: 550px;
+  box-shadow: 0 10px 20px 0 rgba(252, 32, 32, 0.801),
+    0 15px 30px 0 rgba(233, 212, 26, 0.849);
+}
+
+#himat {
+  max-width: 550px;
+  box-shadow: 0 10px 20px 0 rgba(252, 32, 32, 0.801),
+    0 15px 30px 0 rgba(233, 212, 26, 0.849);
+}
+
+#meteor {
+  max-width: 550px;
+  box-shadow: 0 10px 20px 0 rgba(252, 32, 32, 0.801),
+    0 15px 30px 0 rgba(233, 212, 26, 0.849);
+}
+
+.list-header {
+  font-family: "Black Ops One";
+  font-size: 20px;
+  color: lightgray;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(114, 173, 250);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(15, 73, 188);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(2, 39, 112);
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZGMF-X20A-Home</title>
+    <link
+      rel="icon"
+      type="image/jpg"
+      href="https://icon-library.com/images/gundam-icon/gundam-icon-15.jpg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="sf-style.css" />
+    <script defer src="sfindex.js"></script>
+    <script defer src="slideshow.js"></script>
+  </head>
+  <body>
+      <header>
+        <p id="main-head">ZGMF-X20A Strike Freedom Gundam</p>
+        <p id="main-subhead">Z.A.F.T Prototype Assault Mobile Suit</p>
+      </header>
+
+      <div class="slideshow">
+        <div class="freedom-slides fade">
+          <img src="https://mobimg.b-cdn.net/v3/fetch/16/164cd12e2a94923f0ba141bd2f3bb6f7.jpeg" style="width:100%" alt="slide1">
+        </div>
+        <div class="freedom-slides fade">
+          <img src="https://wallpapercave.com/wp/wp2638100.jpg" style="width:100%" alt="slide2">
+        </div>
+        <div class="freedom-slides fade">
+          <img src="https://wallpaperaccess.com/full/3738190.jpg" style="width:100%" alt="slide3">
+        </div>
+      </div>
+
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="index.html">Home</a>
+        <a href="overview.html">Overview</a>
+        <a href="armaments.html">Armaments</a>
+        <a href="saf.html">Special Equipment & Features</a>
+      </div>
+  
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">&#9776;</button>
+      </div>
+
+    <div class="main-content">  
+      <div class="youtube">
+        <h3 class=overview-text">See the unit in action!</h3>
+            <a class="yt-link" href="https://www.youtube.com/watch?v=EBFu_AxXZ7g">
+              <i class="fa fa-youtube-play fa-5x"></i>
+            </a>
+      </div>
+
+      <div class="contact-form">
+        <h3>Clyne Corporation Contact</h3>
+            <p class="overview-text">Please fill out the form below and one our team members will be in touch.</p>
+            <form action="mailto:contact.clynecorp@gmail.com" method="post">
+            <label class="overview-text">Name:</label><br>
+              <input class="form-inputs" type="text" placeholder="Your Name..."><br>
+            <label class="overview-text">Email:</label><br>
+              <input class="form-inputs" type="email" placeholder="Your email..."><br>
+            <label class="overview-text">Organisation:</label><br>
+              <input class=" form-inputs" type="text" placeholder="Your Organisation..."><br>
+            <label class="overview-text">Department Required:</label><br>
+              <input class="radio-inputs" type="radio" id="Sales" name="Department Required:" value="Sales">
+            <label class="overview-text" for="Sales">Sales</label><br>
+              <input class="radio-inputs" type="radio" id="Troubleshooting" name="Department Required:" value="Troubleshooting">
+            <label class="overview-text" for="Troubleshooting">Troubleshooting</label><br>
+              <input class="radio-inputs" type="radio" id="Repairs" name="Department Required:" value="Repairs">
+            <label class="overview-text" for="Repairs">Repairs</label><br>
+              <input class="radio-inputs" type="radio" id="Other" name="Department Required:" value="Other">
+            <label class="overview-text" for="Other">Other</label><br>
+            <label class="overview-text">Message:</label><br>
+            <textarea class="form-inputs" placeholder="Additional Information"></textarea><br>
+            <input id="submit" type="submit" vaue="submit">
+            </form>
+      </div>
+
+      <div class="clyne-logo">
+        <img id="clynecorp" src="https://suncatcherstudio.com/uploads/lettering-fonts/letter-stencils/svg/large-individual-stencil-letter-c-dddddd.png" alt="clynecorp">
+        <p id="comp-name">Clyne Corp Heavy Industries</p>
+      </div>
+    </div>  
+
+  </body>
+</html>
