@@ -139,7 +139,7 @@ Don't forget to give the project a star! Thanks again!
 
 Wim Duncker - [@WimDuncker](https://twitter.com/WimDuncker) - wimduncker17@hotmail.co.nz
 
-Project Link: [https://github.com/WDuncker/mission-3-apis](https://github.com/WDuncker/level-4-mission-2)
+Project Link: [https://github.com/WDuncker/level-4-mission-2](https://github.com/WDuncker/level-4-mission-2)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
